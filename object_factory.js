@@ -23,3 +23,7 @@ console.log(lee.sum());
 
 //속성이 하나 추가되면 같은 취지의 객체도 모두 바꿔줘야한다..ㅠ
 
+//constructor의 사례
+var d1 = new Date();
+
+console.log(d1.toDateString());
