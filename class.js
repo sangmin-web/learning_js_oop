@@ -12,3 +12,13 @@ class User {
 }
 let u1 = new User('상민',12,31);
 console.log(u1)
+
+class PremiumUser extends User{
+
+    premium(){
+        console.log("This user is crazy!")
+    }
+}
+let pu2 = new PremiumUser("철수",2,3);
+console.log(pu2.sum());
+pu2.premium();
