@@ -6,7 +6,7 @@ class User {
         this.second = second;
     }
     sum(){
-        //메소드 정의
+        //메소드 정의 
         return this.first + this.second;
     }
 }
